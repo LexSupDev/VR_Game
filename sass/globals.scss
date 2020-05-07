@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-standart;
+  font-size: $ff-main-size;
+  min-width: 320px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+@media (min-width: $tablet-width) {
+  .wrapper {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .wrapper {
+    padding: 0 110px;
+  }
+}
