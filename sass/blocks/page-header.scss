@@ -1,0 +1,15 @@
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 22px;
+}
+
+.page-header__nav {
+  background-color: $color-bg-accent;
+}
+
+.page-header__nav-inner {
+  display: flex;
+  justify-content: space-between;
+}

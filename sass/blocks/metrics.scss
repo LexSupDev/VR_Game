@@ -1,0 +1,8 @@
+.metrics {
+  @include reset-list;
+  display: flex;
+}
+
+.metrics__item {
+  margin-right: 10px;
+}

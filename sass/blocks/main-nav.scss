@@ -1,0 +1,15 @@
+.main-nav {
+  @include reset-list;
+  display: flex;
+}
+
+.main-nav__item {
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.main-nav__link {
+  display: block;
+  color: #ffffff;
+  padding: 16px 0;
+}

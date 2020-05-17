@@ -1,0 +1,36 @@
+.social {
+  @include reset-list;
+  display: flex;
+}
+
+.social__item {
+  margin-right: 25px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  display: block;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #ffffff;
+  border-radius: 17px;
+
+  &--vk {
+    background: url("../img/vk-icon.svg") 50% no-repeat;
+  }
+
+  &--fb {
+    background: url("../img/facebook-icon.svg") 50% no-repeat;
+  }
+
+  &--youtube {
+    background: url("../img/youtube-icon.svg") 50% no-repeat;
+  }
+
+  &--ok {
+    background: url("../img/ok-icon.svg") 50% no-repeat;
+  }
+}

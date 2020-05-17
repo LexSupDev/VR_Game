@@ -5,6 +5,9 @@ html {
 body {
   font-family: $ff-standart;
   font-size: $ff-main-size;
+  font-weight: 400;
+  background-color: $color-bg;
+  color: $txt-color;
 }
 
 *,
@@ -33,4 +36,21 @@ a {
 .wrapper {
   margin: 0 auto;
   max-width: 1210px;
+}
+
+.title-h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0.055em;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.055em;
+  margin: 0;
 }
