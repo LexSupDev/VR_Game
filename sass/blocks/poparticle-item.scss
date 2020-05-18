@@ -33,6 +33,7 @@
 
 .poparticle-item__views {
   margin-left: auto;
+  padding-left: 25px;
   position: relative;
 
   &::before {
@@ -40,7 +41,7 @@
     width: 15px;
     height: 11px;
     background: url("../img/view-icon.svg") no-repeat;
-    left: -25px;
+    left: 0;
     top: 5px;
   }
 }
