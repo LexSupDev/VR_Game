@@ -1,0 +1,23 @@
+.requirements {
+  display: flex;
+}
+
+.requirements__item {
+  width: 383px;
+  border-radius: 10px;
+  background-color: $color-bg-content;
+  min-height: 215px;
+  margin-right: 30px;
+  padding: 25px;
+  margin-bottom: 25px;
+
+  &:nth-child(n+2) {
+    margin-right: 0;
+  }
+}
+
+.requirements__item-litle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

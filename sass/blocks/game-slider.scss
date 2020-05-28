@@ -1,0 +1,38 @@
+.game-slider__inner {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.game-slider__item {
+  margin-right: 30px;
+}
+
+.game-slider__item-image {
+  width: 280px;
+  height: 158px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #000000;
+}
+
+.game-slider__control {
+  padding: 9px 14px 5px;
+  background-color: $color-bg-content;
+  border-radius: 10px;
+  width: 74px;
+}
+
+.game-slider__control-item {
+  width: 11px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+
+  &--prev {
+    background: url("../img/arrow-prev.svg") no-repeat;
+    margin-right: 19px;
+  }
+
+  &--next {
+    background: url("../img/arrow-next.svg") no-repeat;
+  }
+}

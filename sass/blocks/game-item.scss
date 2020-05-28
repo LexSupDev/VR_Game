@@ -1,0 +1,22 @@
+.game-item {
+  margin-top: 83px;
+}
+
+.game-item__inner {
+  margin-right: 30px;
+}
+
+.game-item__title {
+  margin-bottom: 20px;
+  margin-top: 25px;
+
+  &:first-child {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}
+
+.game-item__txt {
+  font-size: 16px;
+  margin-bottom: 15px;
+}

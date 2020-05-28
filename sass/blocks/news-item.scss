@@ -9,6 +9,8 @@
 }
 
 .news-item__img {
+  width: 100%;
+  min-width: 353px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px #000000;
 }
@@ -36,6 +38,10 @@
 
 .news-item__title {
   padding-bottom: 10px;
+}
+
+.new-item__title-link {
+  color: $txt-color;
 }
 
 .news-item__desc {
